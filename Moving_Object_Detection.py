@@ -2,7 +2,7 @@ import cv2   #opencv
 import time  #delay
 import imutils  #resize
 
-cam = cv2.VideoCapture(0)  #cam id
+cam = cv2.VideoCapture(0)  #cam id, 0= primary cam, 1= sec cam
 ##time.sleep(1)
 
 firstFrame=None
